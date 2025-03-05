@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+            .container{
+                display:flex;
+                width:500px;
+                height:500px;
+                border:1px solid #000000;
+                flex-direction:column;
+            }
+            .box{
+                width:100px;
+                height:100px;
+                background:red;
+            }
+       </style>
+    </head>
+
+    <body>
+       <!--
+            html的布局
+                flex弹性布局
+                绝对定位布局
+                float流式布局
+       -->
+        <!--
+            flex layout
+            先决条件：
+            1.构建标签的嵌套（父标签 子标签）
+            2.父标签样式中用display:flex 开启弹性布局
+            
+            flex效果：
+            1.所有子标签自动转成行块级标签
+            2.产生了两个互相垂直的轴axis：主轴、交叉轴
+            3.编程行块级标签的子标签，沿着主轴排列
+            4.默认情况下，主轴是水平方向，交叉轴是垂直方向，可以在父标签中 flex-direction:row; row->column
+            5.父标签中，用justify-content: 改变主轴布局，start end center space-between space-around
+            6.父标签中，用align-items: 改变交叉轴布局,start end center
+            7.子标签中，用align-self改变具体某一个子标签在交叉轴的布局
+        -->
+        <div class="container">
+            <div class="box"></div>
+            <div class="box" style="background:green"></div>
+            <div class="box" style="background:blue"></div>
+        </div>
+    </body>
+</html>

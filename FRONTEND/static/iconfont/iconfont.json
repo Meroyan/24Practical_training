@@ -1,0 +1,16 @@
+{
+  "id": "4618697",
+  "name": "ai_learn",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12467730",
+      "name": "哆啦A梦",
+      "font_class": "duolaAmeng",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

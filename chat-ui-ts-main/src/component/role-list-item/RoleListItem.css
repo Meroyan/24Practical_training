@@ -1,0 +1,22 @@
+.role-list-item-wrapper.readonly .role-description{
+    height:180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.role-item-icon{
+    display: none;
+}
+.role-list-item-wrapper .ant-card:hover{
+    border-color:var(--color-primary);
+    transition: transform 0.5s;
+    transform: scale(1.05);
+}
+
+.role-list-item-wrapper.readonly:hover .role-item-icon{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:var(--color-primary);
+}

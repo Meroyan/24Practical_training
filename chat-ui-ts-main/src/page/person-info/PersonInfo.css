@@ -1,0 +1,13 @@
+.person-info-container{
+    padding: 50px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    overflow: auto;
+}
+.person-info-container .token-usage{
+
+}
+
+.person-info-container .token-usage .total{
+    margin-top: 10px;
+}

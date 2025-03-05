@@ -1,0 +1,15 @@
+.login-form-btn-list button{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+.login-form-forgot{
+    float: right;
+    color: #1677ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                height:100vh;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .container {
+                padding:96px;
+                box-sizing:border-box;
+                width: 600px;
+                height: 600px;
+                border: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .point{
+                background: red;
+                width:100px;
+                height:100px;
+                border-radius:50%;
+            }
+
+            .group{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="group">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="group">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+    </body>
+</html>
